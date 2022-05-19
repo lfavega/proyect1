@@ -1,0 +1,88 @@
+/*css correspondiente al header*/
+
+
+img {
+    height: 50px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(8, 9, 56);
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    font-weight: 600px;
+    padding: 20px;
+
+}
+.lista{
+    list-style: none;
+    font-size: 0;
+}
+
+.menu{
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 14px;
+}
+
+ul .submenu{
+    position: absolute;
+    display: none;
+    background-color: rgba(12, 6, 90, 0.425);
+    
+}
+
+
+.lista .submenu .item {
+    display: block;
+    float: left;
+}
+
+.lista .menu:hover .submenu {
+    display: block;
+}
+
+
+/* css correspondiendte al body*/
+
+section {
+    padding: 50px 30px 20px 60px;
+    margin-left: 40px;
+}
+    
+section article {
+    background-color: #cccccc34;
+    width: 300px;
+    height: 700px;
+}
+    
+section article p {
+    line-height: 2;
+}
+table {
+    padding: 50px 30px 20px 900px;
+    margin-left: 40px;
+}
+
+td {
+    background-color: #cccccc;
+}

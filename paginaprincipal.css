@@ -1,0 +1,166 @@
+/*css correspondiente al header*/
+
+img {
+    height: 50px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    position: fixed;
+    width: 98vw;
+    display: flex;
+    height: 70px;
+    background-color: rgb(8, 9, 56);
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 0px;
+    flex: 1;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    font-weight: 600px;
+    padding: 20px;
+
+}
+.lista{
+    list-style: none;
+    font-size: 0;
+}
+
+.menu {
+    display: inline-block; 
+    position: relative;
+    font-size: 14px;
+}
+
+.submenu{
+    padding: 4px;
+    position: absolute;
+    display: none;
+    background-color: rgba(12, 6, 90, 0.425);    
+}
+
+.item a{
+    display: block;
+    padding: 15px;
+}
+
+.lista .submenu .item {
+    display: block;
+   
+}
+
+.lista .menu:hover .submenu {
+    display: block;
+}
+
+/*css correspondiente al body*/
+
+.bodycentral{
+    
+}
+
+
+.bandera{
+    margin-top: 65px;
+    display: flex;
+   justify-content: center;
+}
+
+.bandera img{
+    margin-right: 2px;
+}
+
+.imagen2{
+    height: 50px;
+    display: flex;
+    margin-right: 10px;
+}
+
+section .imagen3{
+    height: 300px;
+    width: 300px;
+    margin-left: 700px;
+}
+  
+
+body {
+    background-image: url("http://www.gajujuy.gob.ar/wp-content/themes/gaJujuy/images/slider/hornocal.jpg");
+    background-size: 100% 100%;
+    margin: 0;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    padding: 50px 30px 20px 0px;
+    margin-left: 40px;
+}
+    
+section article {
+    background-color: rgba(2, 2, 29, 0.24) ;
+    width: 300px;
+    height: 800px;
+}
+    
+section article p {
+    line-height: 2;
+}
+
+.blanco{
+    color: white
+}
+
+
+section {
+    padding: 50px 30px 20px 0px;
+    margin-left: 40px;
+}
+
+.formulario{
+    margin: 40px;
+}
+
+.formulario textarea{
+    padding: 40px;
+}
+/*css correspondiente al footer*/
+
+footer{
+    display: flex;
+    height: 70px;
+    background-color: rgb(10, 23, 82);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    margin: 0px;
+    flex: 1;
+
+}
+
+.lista2{
+    color: white;
+    list-style: none;
+    font-size: 14px;
+}
+
+.menu2 {
+    display: inline-block; 
+    position: relative;
+    font-size: 14px;
+    font-weight: 600px;
+    padding: 20px;
+}
